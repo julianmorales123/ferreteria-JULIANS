@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PAGINA DE JULIAN</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+        }
+        ul {
+            text-align: center;
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        p {
+            text-align: center;
+            font-style: italic;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input, form select {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: calc(100% - 10px);
+            box-sizing: border-box;
+        }
+        form input[type="submit"] {
+            width: auto;
+            padding: 8px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>CONTACTO DIRECTO</h1>
+    <ul>
+        <li><a href="PRINCIPAL.html">PRINCIPAL</a></li>
+    </ul>
+    <h1>Me presento...</h1>
+    <p><i>Hola mi nombre es <b>JULIAN MORALES MARQUEZ</b>. Soy un estudiante del CECYTE plantel Chignahuapan.</i></p>
+    <img src="JULIANFACE.jpeg" alt="Este soy yo">
+    <hr>
+
+    <h1>Tablas</h1>
+    <table border="1">
+        <tr>
+            <th>Nombre</th>
+            <th>Apellido Paterno</th>
+            <th>Apellido Materno</th>
+            <th>E-Mail</th>
+        </tr>
+        <tr>
+            <td>SERGUIE IRAM</td>  
+            <td>MALDONADO</td> 
+            <td>GRANILLO</td> 
+            <td>S.MALDONADOG.CHG.22@CEYTE.EDU.MX</td>
+        </tr>
+        <tr>
+            <td>JULIAN</td>  
+            <td>MORALES</td> 
+            <td>MARQUEZ</td> 
+            <td>j.moralesm.chg.22@cecyte.edu.mx</td>
+        </tr>
+        <tr>
+            <td>LUIS</td>
+            <td>TAPIA</td>
+            <td>RIVERA</td>
+            <td>L.TAPIAR.CHG.22CECYTE.EDU.MX</td>
+        </tr>
+    </table>
+
+    <h1>Formularios</h1>
+    <p>Formulario de contacto</p>
+    <form> 
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre"><br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos"><br>
+        <label for="email">E-mail:</label>
+        <input type="text" id="email" name="email"><br>
+        <label for="genero">Género:</label>
+        <select id="genero" name="genero">
+            <option value="hombre">Hombre</option>
+            <option value="mujer">Mujer</option>
+        </select><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

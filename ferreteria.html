@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferreteria</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        ul {
+            text-align: center;
+        }
+        ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+        p {
+            text-align: center;
+            font-style: italic;
+        }
+        img {
+            display: block;
+            margin: 0 auto;
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text-align: center;
+        }
+        th, td {
+            padding: 10px;
+        }
+        form {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        form label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        form input, form select {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: calc(100% - 10px);
+            box-sizing: border-box;
+        }
+        form input[type="submit"] {
+            width: auto;
+            padding: 8px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>FERRETERIA</h1>
+        <ul>
+            <li><a href="PRINCIPAL.html">PRINCIPAL</a></li>
+        </ul>
+        <h1>BIENVENIDOS</h1>
+        <p><i>Hola en esta área <b>con diversas herramientas y maquinaria </b> que te serán de utilidad </i></p>
+        <img src="FERRETERIA.jpg" alt="ESTO ES ALGUNOS DE NUESTROS PRODUCTOS">
+        <hr>
+        <h1>Tablas</h1>
+        <table>
+            <tr>
+                <th>PRODUCTO</th>
+                <th>MARTILLO</th>
+                <th>MACETA</th>
+                <th>CINCEL</th>
+                <th>BICOLOR</th>
+                <th>CUTERS</th>
+                <th>LLANAS</th>
+                <th>LIMAS</th>
+                <th>MACHETES</th>
+                <th>DESARMADORES</th>
+                <th>PINZAS</th>
+                <th>NIVELETA</th>
+                <th>PICOS</th>
+                <th>CARRETILLAS</th>
+            </tr>
+            <tr>
+                <td>PRECIO</td>
+                <td>$150</td>
+                <td>$200</td>
+                <td>$75</td>
+                <td>$10</td>
+                <td>$25</td>
+                <td>$80</td>
+                <td>$20</td>
+                <td>$150</td>
+                <td>$65</td>
+                <td>$125</td>
+                <td>$100</td>
+                <td>$350</td>
+                <td>$1750</td>
+            </tr>
+        </table>
+        <h1>Formularios</h1>
+        <p>Formulario de precios</p>
+        <form>
+            <label for="producto">PRODUCTO:</label>
+            <input type="text" id="producto" name="producto"><br>
+            <label for="cantidad">CANTIDAD:</label>
+            <input type="text" id="cantidad" name="cantidad"><br>
+            <label for="marca">MARCA:</label>
+            <input type="text" id="marca" name="marca"><br>
+            <label for="tipo">TIPO:</label>
+            <select id="tipo" name="tipo">
+                <option value="TICKET">TICKET</option>
+            </select><br>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+</body>
+</html>
